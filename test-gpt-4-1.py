@@ -14,7 +14,7 @@ response = client.chat.completions.create(
     messages=[
         {
             "role": "system",
-            "content": "",
+            "content": "Respond with humor",
         },
         {
             "role": "user",
